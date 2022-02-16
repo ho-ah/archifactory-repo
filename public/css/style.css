@@ -66,7 +66,7 @@
 /***********************************************************************************************/
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #737272;
   line-height: 24px;
   font-size: 13px;
@@ -565,8 +565,8 @@ p {
 }
 
 .hero-content h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 43px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 60px;
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -575,15 +575,16 @@ p {
 .div-line {
   width: 50px;
   background-color: #fff;
-  height: 2px;
+  height: 1px;
   margin: 20px auto;
 }
 
 p.hero {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: italic;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 300;
   line-height: 32px;
   display: block;
   margin-top: 20px;
@@ -662,16 +663,51 @@ ul.caption-slides li {
 }
 
 .big-title-sec .big-title {
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-transform: none;
   font-size: 20px;
   color: #000;
 }
 
-.big-title-sec .big-subtitle {
-  font-family: 'Raleway', sans-serif;
+
+.big-title-sec .big-subtitle-01 {
+  background: url('../images/offer/BIM.png') no-repeat center top;
+  background-size: 10%;
+  font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 1.3px;
-  margin-top: 0;
+  padding-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-transform: none;
+  color: #000;
+}
+
+.big-title-sec .big-subtitle-02 {
+  background: url('../images/offer/Building.png') no-repeat center top;
+  background-size: 10%;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 1.3px;
+  padding-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-transform: none;
+  color: #000;
+}
+
+.big-title-sec .big-subtitle-03 {
+  background: url('../images/offer/Health.png') no-repeat center top;
+  background-size: 10%;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 1.3px;
+  padding-top: 150px;
+  margin-top: 50px;
   margin-bottom: 28px;
   font-size: 24px;
   font-weight: 500;
@@ -685,7 +721,7 @@ ul.caption-slides li {
   line-height: 26px;
   letter-spacing: 1.3px;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .big-title-sec .view-more {
@@ -1939,7 +1975,7 @@ ul.features-list li {
 }
 
 .offer-icon {
-  font-size: 42px;
+  font-size: 50px;
   color: #fc6e51;
   padding-bottom: 15px;
 }
@@ -2882,6 +2918,7 @@ ul.download li a img {
 /* =Footer */
 /***********************************************************************************************/
 
+
 #footer-section {
   padding: 80px 0;
   background: #F7F7F7;
@@ -2941,6 +2978,44 @@ ul.footer-social-links li a:hover:after {
 p.copyright {
   padding-top: 40px;
 }
+
+.footer-text-archi {
+  font-size : 12px;
+  color: #d3d3d3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+.inner .sns_list {
+  margin-top: 70px;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 0px;
+}
+
+.inner .sns_list li a {
+  display: block;
+  text-indent: -9999px;
+  transition: all 0.3s;
+}
+
+.inner .sns_list li a.sns-instagram {
+  width: 20px;
+  height: 20px;
+  background: url(../images/btn/btn_sns_i.png) no-repeat center top;
+}
+
+.inner .sns_list li a.sns-blog {
+  width: 45px;
+  height: 20px;
+  background: url(../images/btn/btn_sns_n.png) no-repeat center top;
+}
+
 
 /***********************************************************************************************/
 /* =Back to top */
