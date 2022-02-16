@@ -65,6 +65,12 @@
 /* =Common Styles */
 /***********************************************************************************************/
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   color: #737272;
@@ -583,11 +589,12 @@ p.hero {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: italic;
   color: #fff;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 300;
   line-height: 32px;
   display: block;
   margin-top: 20px;
+  margin-bottom: 150px;
 }
 
 .hero-btn {
@@ -663,10 +670,10 @@ ul.caption-slides li {
 }
 
 .big-title-sec .big-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   text-transform: none;
-  font-size: 20px;
+  font-size: 28px;
   color: #000;
 }
 
@@ -677,7 +684,7 @@ ul.caption-slides li {
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 1.3px;
   padding-top: 150px;
-  margin-top: 50px;
+  margin-top: 130px;
   margin-bottom: 28px;
   font-size: 24px;
   font-weight: 500;
@@ -692,7 +699,7 @@ ul.caption-slides li {
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 1.3px;
   padding-top: 150px;
-  margin-top: 50px;
+  margin-top: 130px;
   margin-bottom: 28px;
   font-size: 24px;
   font-weight: 500;
@@ -707,7 +714,7 @@ ul.caption-slides li {
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 1.3px;
   padding-top: 150px;
-  margin-top: 50px;
+  margin-top: 130px;
   margin-bottom: 28px;
   font-size: 24px;
   font-weight: 500;
@@ -721,7 +728,6 @@ ul.caption-slides li {
   line-height: 26px;
   letter-spacing: 1.3px;
   font-weight: 300;
-  margin-bottom: 80px;
 }
 
 .big-title-sec .view-more {
@@ -1958,9 +1964,9 @@ ul.features-list li {
 ----------------------*/
 
 #landing-offer .title-section h2 {
-  padding-bottom: 10px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
+  padding-bottom: 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .offer-post {
@@ -3229,7 +3235,7 @@ ol, ul, li {
   }
 
   .big-title-sec .big-title {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   .big-title-sec .big-subtitle {
