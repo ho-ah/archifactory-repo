@@ -405,7 +405,7 @@ p {
 }
 
 .navbar-nav {
-  margin: 7.5px -10px;
+  margin: 8.5px -10px 7.5px -10px;
 }
 
 .navbar-default .navbar-nav > li > a {
