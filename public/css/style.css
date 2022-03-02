@@ -3013,7 +3013,7 @@ ol, ul, li {
 .inner .sns_list li a.sns-instagram {
   width: 20px;
   height: 20px;
-  background:no-repeat center top;
+  background: url(../images/btn/btn_sns_i.png) no-repeat center top;
 }
 
 .inner .sns_list li a.sns-blog {
